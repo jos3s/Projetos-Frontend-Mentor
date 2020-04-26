@@ -54,6 +54,7 @@ body{
 #price{
     font-size: 34px;
     display: inline;
+    font-weight:bold;
 }
 #price-info{
     display: inline-block;
@@ -77,15 +78,16 @@ body{
     color: rgba(255, 255, 255, 0.671);
     line-height: .6;
 }
-.attribution { font-size: 11px; text-align: center; margin-top: 0; }
+.attribution { font-size: 13px; text-align: center; margin-top: 0; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 @media screen and (min-width:1148px){
     .container{
-        margin: 0.6em 18em;
+        margin: auto;
+        width: 700px;
     }
     .border{
-        padding: 2.30em;
+        padding: 2.5em;
     }
     .options{
         display: flex;
