@@ -84,10 +84,10 @@ body{
 @media screen and (min-width:1148px){
     .container{
         margin: auto;
-        width: 700px;
+        width: 650px;
     }
     .border{
-        padding: 2.5em;
+        padding: 1.85em 2.30em;
     }
     .options{
         display: flex;
@@ -114,6 +114,6 @@ body{
         -o-border-radius: 0px 0px 5px 0px;
     }
     .whyUs p{
-        line-height: .8;
+        line-height: .7;
     }
 }
