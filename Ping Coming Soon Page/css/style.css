@@ -1,0 +1,136 @@
+body{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+header img{
+    text-align: center;
+    padding: 3em 0 2em;
+}
+.border{
+    margin: auto;
+    width: 85%;
+}
+.text{
+    padding: 0 1em 1em;
+}
+.text h2{
+    font-size: 24px;
+    font-weight: 300;
+}
+.text h2 b{
+    font-weight: bold;
+}
+.text p{
+    font-size: 12px;
+}
+.box{
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-bottom: 2.5em;
+    padding: .1em;
+}
+.notify #email{
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid hsl(0, 0%, 59%) ;
+    padding: 1rem 1rem 1rem 1.5rem;
+    border-radius: 111px;
+    margin-bottom: 15px;
+}
+.notify input:focus{
+    outline: 0;
+}
+.notify button{
+    padding: 1rem;
+    font-size: 14px;
+    color: white;
+    width: 100%;
+    background-color: hsl(223, 87%, 63%);
+    box-shadow: 0px 0px 19px 2px rgba(194,211,255,0.85);
+    border: 1px solid transparent;
+    border-radius: 111px;
+}
+.erro{
+    margin-top: 0;
+    margin-bottom: 2em;
+    font-size: 12px;
+    color: hsl(354, 100%, 66%);
+}
+.dashboard{
+    width: 100%;
+}
+.footer{
+    margin-top: 6em;
+    font-size: 12px;
+    margin-bottom: 5em;
+    color: hsl(0, 0%, 59%);
+}
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer li{
+    font-size: 10px;
+    display: inline-block;
+    padding-right: 10px;
+    height: 10px;
+    width: 10px;
+    padding: 7px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 59%);
+}
+.social a{
+    color: hsl(223, 87%, 63%);
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width:850px){
+    header{
+        padding:0;
+    }
+    .border{
+        width: 60%;
+        margin-left: auto;
+    }
+    .text h2{
+        margin-top: 0;
+        margin-bottom: 15px;
+        font-size: 3rem;
+    }
+    .notify{
+        display: block;
+    }
+    .notify button{
+        width: 35%;
+        padding: 1em;
+    }
+    .notify #email{
+        padding: 1em;
+        margin-right: 1em;
+        max-width:55%;
+    }
+    .footer ul{
+        margin-bottom: 3em;
+    }
+    .footer li{
+        font-size: 15px;
+        display: inline-block;
+        padding-right: 10px;
+        height: 15px;
+        width: 15px;
+        padding: 10px;
+        margin-right: 10px;
+        border-radius: 50%;
+        border: 1px solid hsl(0, 0%, 59%);
+    }
+}
