@@ -76,6 +76,11 @@ header img{
     body{
         background: hsl(257, 40%, 49%)  url(../images/bg-desktop.svg);
     }
+    .border{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
     #logo{
         height: 50px;
         padding-bottom: 4em;
@@ -96,7 +101,7 @@ header img{
     }
     #register{
         padding: 1em;
-        width: 40%;
+        width: 30%;
     }
     #social-flex{
         margin-top: 2.5em;
