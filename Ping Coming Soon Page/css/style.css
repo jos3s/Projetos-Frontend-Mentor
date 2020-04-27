@@ -15,13 +15,16 @@ header img{
     padding: 0 1em 1em;
 }
 .text h2{
+    color:hsl(0, 0%, 59%) ;
     font-size: 24px;
     font-weight: 300;
 }
 .text h2 b{
+    color: black;
     font-weight: bold;
 }
 .text p{
+    color: black;
     font-size: 12px;
 }
 .box{
@@ -32,11 +35,12 @@ header img{
     padding: .1em;
 }
 .notify #email{
+    color: hsl(0, 0%, 59%) ;
     box-sizing: border-box;
     width: 100%;
     font-size: 14px;
     border: 1px solid hsl(0, 0%, 59%) ;
-    padding: 1rem 1rem 1rem 1.5rem;
+    padding: 1rem 1rem 1rem 2rem;
     border-radius: 111px;
     margin-bottom: 15px;
 }
@@ -69,7 +73,7 @@ header img{
 }
 small {
 	position: absolute;
-	left: 30%;
+	left: 17%;
 	color: hsl(354, 100%, 66%);
 	font-style: italic;
 	font-size: 13px;
@@ -110,13 +114,25 @@ small {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
-
+@media screen and (min-width:550px){
+    small{
+        left: 30%;
+    }
+}
+@media screen and (min-width:650px){
+    small{
+        left: 36%;
+    }
+}
 @media screen and (min-width:850px){
     header{
         padding:0;
     }
+    small{
+        left:30%;
+    }
     .border{
-        width: 60%;
+        width: 50%;
         margin-left: auto;
     }
     .text h2{
@@ -124,17 +140,21 @@ small {
         margin-bottom: 15px;
         font-size: 3rem;
     }
+    .text p{
+        font-size: 16px;
+    }
     .notify{
         display: block;
     }
     .notify button{
-        width: 35%;
+        width: 30%;
         padding: 1em;
+        margin-top: 0;
     }
     .notify #email{
         padding: 1em;
         margin-right: 1em;
-        max-width:55%;
+        max-width:60%;
     }
     .footer ul{
         margin-bottom: 3em;
