@@ -44,6 +44,7 @@ header img{
     outline: 0;
 }
 .notify button{
+    margin-top: 3em;
     padding: 1rem;
     font-size: 14px;
     color: white;
@@ -53,12 +54,28 @@ header img{
     border: 1px solid transparent;
     border-radius: 111px;
 }
-.erro{
-    margin-top: 0;
-    margin-bottom: 2em;
-    font-size: 12px;
-    color: hsl(354, 100%, 66%);
+
+
+.notify.error #email {
+	border: 1px solid hsl(354, 100%, 66%);
 }
+
+.notify.error input::placeholder {
+	color: hsl(354, 100%, 66%);
+}
+
+.notify.error small{
+	display: block;
+}
+small {
+	position: absolute;
+	left: 30%;
+	color: hsl(354, 100%, 66%);
+	font-style: italic;
+	font-size: 13px;
+	display: none;
+}
+
 .dashboard{
     width: 100%;
 }
