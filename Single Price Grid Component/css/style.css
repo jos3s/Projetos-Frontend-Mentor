@@ -41,7 +41,7 @@ body{
     background: hsl(179, 62%, 43%);
     color: white;
 }
-.subscription .signUp{
+.signUp{
     color: white;
     background-color: hsl(71, 73%, 54%);
     border: none;
