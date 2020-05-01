@@ -1,0 +1,322 @@
+:root{
+    --dark-blue: hsl(243, 87%, 12%);
+    --desaturated: hsl(238, 22%, 44%);
+    --bright-blue: hsl(224, 93%, 58%);
+    --cyan: hsl(170, 45%, 43%);
+    --grayish: hsl(240, 75%, 98%);
+    --gray: hsl(0, 0%, 75%);
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, header{
+    font-family: 'Raleway', sans-serif;
+    color: var(--dark-blue);
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.border{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    padding: .75em;
+    background-color: var(--bright-blue);
+    border: 1px solid var(--bright-blue);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    color: white;
+}
+.link{
+    font-size: 13px;
+    text-decoration: none;
+    color: var(--cyan);
+    border-bottom: 1px solid var(--cyan);
+}
+.curve{
+    margin-bottom: 0;
+    display: block;
+}
+
+.menu{
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 6em;
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+}
+.menu li{
+    display: inline;
+    margin-left: 1em;
+}
+.menu img{
+    height: 30px;
+    width: 100px;
+}
+
+.introduction{
+    text-align: center;
+    margin-bottom: 3em;
+    color: var(--dark-blue);
+}
+.introduction h2{
+    margin-bottom: 1.5em;
+}
+.introduction img{
+    max-width: 100%;
+}
+.introduction p{
+    font-size: 14px;
+    line-height: 1.4;
+}
+.introduction form{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+}
+.introduction form input{
+    color: var(--gray);
+    padding: .75em;
+    padding-left: 1em;
+    margin-bottom: 1em;
+    border: 1px solid var(--dark-blue);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.grayish{
+    background-color: var(--grayish);
+    padding-bottom: 5rem;
+}
+.productive{
+    color: var(--desaturated);
+    text-align: center;
+}
+.productive h3{
+    text-align: center;
+}
+.productive img{
+    max-width: 100%;
+}
+.productive p{
+    text-align: left;
+}
+.quote{
+    margin-top: 2rem;
+    padding: 1.5rem;
+    font-size: 13px;
+    background-color: white;
+    color: var(--dark-blue);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow:0px 0px 19px -15px  rgba(0, 0, 0, 0.75) ;
+}
+.user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.user img{
+    margin-right: 1em;
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.access{
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background: var(--desaturated);
+    color: white;
+}
+.access h3{
+    color: white;
+}
+.access form{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+}
+.access form input{
+    color: var(--gray);
+    padding: .65em;
+    padding-left: 1em;
+    margin-bottom: 1em;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+
+#footer{
+    color: white;
+    background: var(--dark-blue);
+    padding: 2rem;
+    font-weight: 200;
+}
+#footer .logo-footer{
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+}
+#footer p img {
+    margin-right: .5em;
+}
+#footer ul{
+    margin-top: 2.5em;
+}
+#footer li{
+    line-height: 2;
+}
+
+.social{
+    text-align: center;
+    font-size: 14px;
+}
+.social li{
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 11px;
+    display: inline-block;
+    padding: 5px;
+    height: 20px;
+    width: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-left: 1em;
+    margin-bottom: 2rem;
+}
+.social li a{
+    cursor: pointer;
+    color: white;
+}
+.curve{
+    max-width: 100%;
+    overflow: hidden;
+}
+.curve-desktop{
+    display: none;
+    overflow: hidden;
+}
+.attribution {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+    font-size: 11px;
+    text-align: center;
+    background-color: var(--dark-blue);
+    color: grey;
+}
+.attribution a {
+    color: white;
+}
+
+@media  screen and  (min-width:900px){
+    .border-flex{
+        display: flex;
+        flex-direction:row;
+    }
+    .menu ul li{
+        margin-left: 3em;
+    }
+    .introduction{
+        text-align: left;
+    }
+    .introduction  img{
+        max-width: 50%;
+        flex: 0 1 30%;
+        order: 2;
+        margin-left: 2em;
+    }
+    .introduction form{
+        font-size: 14px;
+        margin-top: 2em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+    .introduction form input, .introduction form button{
+        margin-bottom: 0;
+        flex: 0 1 45%;
+    }
+    .btn{
+        padding: .7em;
+    }
+    .productive div{
+        text-align: left;
+    }
+    .productive div h3{
+        text-align: left;
+        font-size: 1.8em;
+    }
+    .productive div .quote{
+        max-width: 50%;
+    }
+    .productive img{
+        max-width: 40%;
+        order: 2;
+        margin-left: 2em;
+    }
+    .curve{
+        display: none;
+        overflow: hidden;
+    }
+    .curve-desktop{
+        display: block;
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .access .txt{
+        text-align: left;
+        margin-right: 8em;
+    }
+    .access form button{
+        width: 60%;
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+    #footer{
+        padding: 3rem 10%;
+    }
+    #footer .logo-footer{
+        margin-bottom: 0;
+        width: 170px;
+    }
+    #footer ul{
+        margin-top: 0;
+    }
+    #footer .border-flex{
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+}
