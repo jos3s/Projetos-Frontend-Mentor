@@ -8,6 +8,7 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
+    font-size:22px;
 }
 h1, h2, h3, h4, h5, h6, header{
     font-family: 'Raleway', sans-serif;
@@ -70,7 +71,7 @@ li{
 
 .introduction{
     text-align: center;
-    margin-bottom: 3em;
+    margin-bottom: 4em;
     color: var(--dark-blue);
 }
 .introduction h2{
@@ -80,7 +81,7 @@ li{
     max-width: 100%;
 }
 .introduction p{
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.4;
 }
 .introduction form{
@@ -108,6 +109,10 @@ li{
 .productive{
     color: var(--desaturated);
     text-align: center;
+    justify-content: space-between;
+}
+.productive div{
+    flex: .5 1 40%;
 }
 .productive h3{
     text-align: center;
@@ -116,6 +121,7 @@ li{
     max-width: 100%;
 }
 .productive p{
+    font-size: 16px;
     text-align: left;
 }
 .quote{
@@ -149,7 +155,7 @@ li{
 
 .access{
     text-align: center;
-    padding-top: 4em;
+    padding-top: 5em;
     padding-bottom: 4em;
     background: var(--desaturated);
     color: white;
@@ -175,23 +181,22 @@ li{
 }
 
 
-#footer{
+footer{
     color: white;
     background: var(--dark-blue);
-    padding: 2rem;
     font-weight: 200;
 }
-#footer .logo-footer{
+footer .logo-footer{
     margin-top: 2.5em;
     margin-bottom: 2em;
 }
-#footer p img {
+footer p img {
     margin-right: .5em;
 }
-#footer ul{
+footer ul{
     margin-top: 2.5em;
 }
-#footer li{
+footer li{
     line-height: 2;
 }
 
@@ -240,6 +245,11 @@ li{
 }
 
 @media  screen and  (min-width:900px){
+    .border{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .border-flex{
         display: flex;
         flex-direction:row;
@@ -313,17 +323,17 @@ li{
         padding-left: .5rem;
         padding-right: .5rem;
     }
-    #footer{
-        padding: 3rem 10%;
+    footer{
+        padding: 3rem 0;
     }
-    #footer .logo-footer{
+    footer .logo-footer{
         margin-bottom: 0;
         width: 170px;
     }
-    #footer ul{
+    footer ul{
         margin-top: 0;
     }
-    #footer .border-flex{
+    footer .border-flex{
         justify-content: space-between;
         align-items: flex-start;
     }
