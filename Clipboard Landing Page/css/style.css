@@ -17,8 +17,8 @@ p{
     color: var(--grayish);
 }
 
-.border{
-    width: 80%;
+.border, .border-exp, .border-desktop, .border-img{
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -75,7 +75,7 @@ header p{
 
 footer{
     background-color: hsl(0, 0%, 95%);
-    padding: 3rem 2em;
+    padding: 3rem 0;
     color: var(--dark-grayish);
 }
 footer.border{
@@ -87,12 +87,10 @@ footer img{
 footer ul{
     margin: 0;
     padding: 0;
-}
-footer p{
-    line-height: 2;
-}
-.social{
     list-style: none;
+}
+footer li{
+    line-height: 2;
 }
 .social li{
     font-size: 1.6em;
@@ -110,4 +108,81 @@ footer p{
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width:950px){
+    .border-desktop{
+        width: 60%;
+    }
+    header{
+        background:linear-gradient( transparent 30%, white 70%),url("../images/bg-header-desktop.png");
+        margin-bottom: 5em;
+    }
+    .devices, .download, .workflow, .snippets{
+        margin-bottom: 4em;
+    }
+    .btn-flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn-flex button{
+        margin-left: .5em;
+        margin-right: .5em;
+        flex: 0 1 40%;
+    }
+    .border-exp{
+        margin-left: 0;
+    }
+    .snippets-flex{
+        display: flex;
+        flex-direction: row;
+        margin-left: 0;
+        justify-content: space-between;
+    }
+    .snippets-flex img{
+        width: 60%;
+    }
+    .workflow-flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .workflow-flex section{
+        flex: 0 1 30%;
+    }
+    .border-img{
+        width: 100%;
+    }
+    .logos-flex{
+        margin-bottom: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .logos-flex img{
+        margin-bottom: 0;
+    }
+    #snippet{
+        margin-left: 4rem;
+        text-align: left;
+    }
+
+    .footer-flex{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .list{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+    .list li{
+        text-align: left;
+        margin-right: 2em;
+    }
 }
